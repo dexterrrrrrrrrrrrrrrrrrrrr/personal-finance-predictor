@@ -31,11 +31,13 @@ An AI-powered personal finance management app designed for students to **track e
 ## 📁 Project Structure
 
 personal-finance-predictor/
-│── app.py
-│── requirements.txt
-│── README.md
 │
-├── src/
+├── app.py                 # Main Streamlit app
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+│
+├── src/                   # Source code modules
+│   ├── __init__.py
 │   ├── auth.py
 │   ├── data.py
 │   ├── models.py
@@ -44,9 +46,8 @@ personal-finance-predictor/
 │   ├── storage.py
 │   └── suggestions.py
 │
-└── data/
-└── app.db
-
+└── data/                  # Database and other data files
+    └── app.db
 ---
 
 ## ⚙️ Installation & Setup
