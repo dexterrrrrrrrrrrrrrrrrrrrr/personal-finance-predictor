@@ -1,24 +1,74 @@
-# Personal Finance Predictor
+# 💸 Personal Finance Predictor (Student Edition)
 
-## Setup Instructions
+An AI-powered personal finance management app designed for students to **track expenses, analyze spending behavior, predict future expenses, and receive smart saving suggestions**.
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/venommmmmmmmmmmmmmm/personal-finance-predictor.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd personal-finance-predictor
-   ```
-3. Install required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-4. Run the Streamlit app:
-   ```
-   streamlit run app.py
-   ```
+---
 
-## Usage
+## 🌟 Features
 
-After running the app, open your browser and navigate to `http://localhost:8501` to access the Streamlit application.
+- ➕ Add and manage daily expenses  
+- 📂 Auto-categorization using Machine Learning  
+- 📊 Interactive dashboard with charts  
+- 🔮 Predict next month's spending  
+- 💡 Smart saving suggestions  
+- 💱 Multi-currency support (INR / USD / EUR)  
+- 📄 Downloadable PDF reports  
+- 🔐 User authentication system  
+
+---
+
+## 🧠 Tech Stack
+
+- **Frontend:** Streamlit  
+- **Backend:** Python  
+- **Machine Learning:** Scikit-learn  
+- **Database:** SQLite  
+- **Visualization:** Matplotlib  
+- **PDF Reports:** ReportLab  
+
+---
+
+## 📁 Project Structure
+```
+personal-finance-predictor/
+│
+├── app.py                 # Main Streamlit app
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+│
+├── src/                   # Source code modules
+│   ├── __init__.py
+│   ├── auth.py
+│   ├── data.py
+│   ├── models.py
+│   ├── preprocess.py
+│   ├── report.py
+│   ├── storage.py
+│   └── suggestions.py
+│
+└── data/                  # Database and other data files
+    └── app.db
+---
+```
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/venommmmmmmmmmmmmmm/personal-finance-predictor.git
+cd personal-finance-predictor
+
+```
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+
+```
+3️⃣ Run the app
+```bash
+streamlit run app.py
+
+```
+🔐 Demo Login
+```bash
+Username: admin  
+Password: admin123
