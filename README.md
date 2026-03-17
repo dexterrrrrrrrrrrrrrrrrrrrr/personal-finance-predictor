@@ -29,7 +29,7 @@ An AI-powered personal finance management app designed for students to **track e
 ---
 
 ## 📁 Project Structure
-
+```
 personal-finance-predictor/
 │
 ├── app.py                 # Main Streamlit app
@@ -49,7 +49,7 @@ personal-finance-predictor/
 └── data/                  # Database and other data files
     └── app.db
 ---
-
+```
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
