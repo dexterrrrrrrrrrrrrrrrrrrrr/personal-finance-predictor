@@ -11,7 +11,7 @@ An AI-powered personal finance management app designed for students to **track e
 - 📊 Interactive dashboard with charts  
 - 🔮 Predict next month's spending  
 - 💡 Smart saving suggestions  
-- 💱 Multi-currency support (INR / USD / EUR)  
+- 💱 Currency support ( USD )  
 - 📄 Downloadable PDF reports  
 - 🔐 User authentication system  
 
