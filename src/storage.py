@@ -1,3 +1,4 @@
+from typing import Optional
 import sqlite3
 from pathlib import Path
 import pandas as pd
@@ -60,7 +61,7 @@ def save_expenses_to_db(username: str, df: pd.DataFrame) -> None:
         conn.commit()
 
 
-def load_expenses_from_db(username: str) -> pd.DataFrame | None:
+def load_expenses_from_db(username: str) -> Optional[pd.DataFrame]:
     if not username:
         return None
     with sqlite3.connect(DB_PATH) as conn:
