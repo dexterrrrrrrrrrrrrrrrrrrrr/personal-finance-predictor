@@ -54,7 +54,7 @@ personal-finance-predictor/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/venommmmmmmmmmmmmmm/personal-finance-predictor.git
+git clone https://github.com/dexterrrrrrrrrrrrrrrrrrrrr/personal-finance-predictor.git
 cd personal-finance-predictor
 
 ```
