@@ -34,6 +34,7 @@ personal-finance-predictor/
 │
 ├── app.py                 # Main Streamlit app
 ├── requirements.txt       # Python dependencies
+├── runtime.txt
 ├── README.md              # Project documentation
 │
 ├── src/                   # Source code modules
