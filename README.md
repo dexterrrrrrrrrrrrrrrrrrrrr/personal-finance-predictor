@@ -76,7 +76,12 @@ Password: admin123
 
 ```
 🌍 Live Demo
-```bash
 
+---
 
-[🚀 Click here to try the app](https://personal-finance-predictor-rdh5nb6eu6m5ex9gcmwn4p.streamlit.app/)
+Experience the app live here:  
+👉 [🚀 Click here to try the app](https://personal-finance-predictor-rdh5nb6eu6m5ex9gcmwn4p.streamlit.app/)
+
+No installation required — works directly in your browser.
+
+---
