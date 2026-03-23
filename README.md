@@ -73,3 +73,8 @@ streamlit run app.py
 ```bash
 Username: admin  
 Password: admin123
+
+```
+🌍 Live Demo
+```bash
+https://personal-finance-predictor-rdh5nb6eu6m5ex9gcmwn4p.streamlit.app/
